@@ -1,1 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saket Singh Shooting Academy Arms Shooting Range</title>
+    <link rel="stylesheet" href="global.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <img style="width: 120px; height: 120px;" src="./asset/img/SSSAcademy (1).jpg"
+                alt="Saket Singh Shooting Academy" class="logo-img">
+            <div class="logo">Saket Singh Shooting Academy</div>
+            <ul class="nav-links">
+                <!-- <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#team">Instructors</a></li>
+                <li><a href="#testimonials">Testimonials</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- <div class="container hero-content">
+            <h1>Welcome to SSS Academy Shooting Range</h1>
+            <p>Your premier destination for safe, fun, and professional shooting experiences.</p>
+            <a href="#contact" class="btn-primary">Contact Us</a>
+        </div> -->
+    </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container about-content">
+            <img style="margin-top: 50px;" src="./asset/img/gun.jpeg" alt="Range Interior" class="about-img">
+            <div class="about-text">
+                <h2>About SSS Academy</h2>
+                <p>SSS Academy is a premier shooting facility dedicated to providing a safe and welcoming environment
+                    for sport shooters, law enforcement, and families alike. Our team brings years of expertise,
+                    ensuring every player receives professional guidance, whether you’re here for training, or
+                    practice.</p>
+                <ul>
+                    <li>Modern range with 28+ Fire Arms Shooting Lanes</li>
+                    <li>Top-tier ventilation and safety measures</li>
+                    <li>Private lessons, group events</li>
+                    <!-- <li>Retail shop with , and accessories</li> -->
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section class="features" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=100&q=80"
+                        alt="Indoor Range" style="border-radius:8px; width:48px; height:48px; object-fit:cover;">
+                    <h3>Indoor Shooting </h3>
+                    <p>Starting from September 2025, we will be offering indoor shooting sessions for 10 Meters Rifle &
+                        Pistol.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <img src="https://t3.ftcdn.net/jpg/03/29/12/94/360_F_329129425_hZxjaK6HzRBgCcGbeBfXZwshBO5t7Wbe.jpg"
+                        alt="Firearm Training" style="border-radius:8px; width:48px; height:48px; object-fit:cover;">
+                    <h3>Firearms Training</h3>
+                    <p>Certified instructors offer beginner to advanced pistol, handgun and rifle classes.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="asset/img/shootinggun.jpeg" alt="Gun Rentals"
+                        style="border-radius:8px; width:48px; height:48px; object-fit:cover;">
+                    <h3>Safety Awareness</h3>
+                    <p>Comprehensive safety training, range rules, and legal guidance to promote responsible.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="asset/img/gun.jpeg" alt="Safety Courses"
+                        style="border-radius:8px; width:48px; height:48px; object-fit:cover;">
+                    <h3>Sports Shooting</h3>
+                    <p>Personal and group coaching for competitive shooting sports, including rifle and pistol
+                        marksmanship.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Initial 6 images (show first 6 only) -->
+                <div class="gallery-item"><img src="./asset/img/gallery 1 (1).jpg" alt="Gallery 1" onclick="openPopup(this)"></div>
+                <div class="gallery-item"><img src="./asset/img/gallery 2 (1).jpg" alt="Gallery 2" onclick="openPopup(this)"></div>
+                <div class="gallery-item"><img src="./asset/img/gallery 2 (2).jpg" alt="Gallery 3" onclick="openPopup(this)"></div>
+                <div class="gallery-item"><img src="./asset/img/gallery 2 (3).jpg" alt="Gallery 4" onclick="openPopup(this)"></div>
+                <div class="gallery-item"><img src="./asset/img/gallery 1 (5).jpg" alt="Gallery 5" onclick="openPopup(this)"></div>
+                <div class="gallery-item"><img src="./asset/img/gallery 1 (6).jpg" alt="Gallery 6" onclick="openPopup(this)"></div>
+                <!-- Hidden images (more for Load More button) -->
+                <div class="gallery-item hidden"><img src="./asset/img/gallery 1 (7).jpg" alt="Gallery 7" onclick="openPopup(this)"></div>
+                <!-- <div class="gallery-item hidden"><img src="./asset/img/Press 8.jpg" alt="Gallery 8"></div> -->
+                <!-- <div class="gallery-item hidden"><img src="https://images.unsplash.com/photo-1508614969033-7b8a9971b2d9?auto=format&fit=crop&w=600&q=80" alt="Gallery 9"></div>
+            <div class="gallery-item hidden"><img src="https://images.unsplash.com/photo-1514315384765-cd6b2e8b66c6?auto=format&fit=crop&w=600&q=80" alt="Gallery 10"></div>
+            <div class="gallery-item hidden"><img src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?auto=format&fit=crop&w=600&q=80" alt="Gallery 11"></div>
+            <div class="gallery-item hidden"><img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=600&q=80" alt="Gallery 12"></div> -->
+            </div>
+            <!-- Popup Modal -->
+            <div id="popup" class="popup">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <img class="popup-content" id="popup-img">
+            </div>
+            <div class="gallery-btn-wrap">
+                <button id="loadMoreBtn" class="gallery-load-more">Load More</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Gallery Section -->
+    <!-- <section class="gallery" id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-slider">
+                <button class="gallery-btn prev">&#8592;</button>
+                <div class="gallery-images">
+                    <img src="asset/img/Shooting.jpg" alt="Range View 1" class="gallery-img active">
+                    <img src="asset/img/aim.jpg" alt="Training Session" class="gallery-img">
+                    <img src="asset/img/gun1.jpeg" alt="Handgun Practice" class="gallery-img">
+                    <img src="asset/img/gunbox.jpeg" alt="Handgun Practice" class="gallery-img">
+                    <img src="asset/img/gun.jpeg" alt="Handgun Practice" class="gallery-img">
+                    <img src="asset/img/gallery.jpg" alt="Handgun Practice" class="gallery-img">
+                </div>
+                <button class="gallery-btn next">&#8594;</button>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2>Press Release</h2>
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Initial 6 images (show first 6 only) -->
+                <div class="gallery-item"><img src="./asset/img/Press 1.jpg" alt="Gallery 2" onclick="openPopup(this)"></div>
+                <div class="gallery-item"><img src="./asset/img/Press 2.jpg" alt="Gallery 2" onclick="openPopup(this)"></div>
+                <div class="gallery-item"><img src="./asset/img/Press 3.jpg" alt="Gallery 3" onclick="openPopup(this)"></div>
+                <div class="gallery-item"><img src="./asset/img/Press 4.jpg" alt="Gallery 4" onclick="openPopup(this)"></div>
+                <div class="gallery-item"><img src="./asset/img/Press 5.jpg" alt="Gallery 5" onclick="openPopup(this)"></div>
+                <div class="gallery-item"><img src="./asset/img/Press 6.jpg" alt="Gallery 6" onclick="openPopup(this)"></div>
+                <!-- Hidden images (more for Load More button) -->
+                <div class="gallery-item hidden"><img src="./asset/img/Press 7.jpg" alt="Gallery 7" onclick="openPopup(this)"></div>
+                <div class="gallery-item hidden"><img src="./asset/img/Press 8.jpg" alt="Gallery 8" onclick="openPopup(this)"></div>
+                <!-- <div class="gallery-item hidden"><img src="https://images.unsplash.com/photo-1508614969033-7b8a9971b2d9?auto=format&fit=crop&w=600&q=80" alt="Gallery 9"></div>
+            <div class="gallery-item hidden"><img src="https://images.unsplash.com/photo-1514315384765-cd6b2e8b66c6?auto=format&fit=crop&w=600&q=80" alt="Gallery 10"></div>
+            <div class="gallery-item hidden"><img src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?auto=format&fit=crop&w=600&q=80" alt="Gallery 11"></div>
+            <div class="gallery-item hidden"><img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=600&q=80" alt="Gallery 12"></div> -->
+            </div>
+            <!-- Popup Modal -->
+            <div id="popup" class="popup">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <img class="popup-content" id="popup-img">
+            </div>
+            <div class="gallery-btn-wrap">
+                <button id="loadMorePressBtn" class="gallery-load-more">Load More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Gallery Section -->
+    <section class="video-gallery-section" id="video-gallery">
+        <div class="container">
+            <h2>Press Release Videos</h2>
+            <div class="video-gallery-grid" id="video-gallery-grid">
+                <!-- Initial 2 videos (visible) -->
+                <div class="video-gallery-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YQ5V_zjLw54?si=LepnyjIlUMxDY5H6"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+                </div>
+                <div class="video-gallery-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oKTyA9zCEjM?si=-C-lWHC-WdPu4M1f"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <!-- Hidden videos for Load More -->
+                <div class="video-gallery-item hidden">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/c0jqxRUb53w?si=QQrVEzQdveVjepaO"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-gallery-item hidden">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3GYEpetpE-g?si=JQ5PwphxYEI6dQSW"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-gallery-item hidden">
+                    <iframe
+                        src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F61563036442155%2Fvideos%2F2239724569789330%2F&show_text=false&width=380&t=0"
+                        width="380" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowfullscreen="true"
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                        allowFullScreen="true"></iframe>
+                </div>
+                <div class="video-gallery-item hidden">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rIo_nMsQhr4?si=pnq34poB5FhuVcX7"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-gallery-item hidden">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RCMTdOB6Fno?si=LwyymwWfYOtMuoNO"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="video-gallery-btn-wrap">
+                <button id="loadMoreVideoBtn" class="gallery-load-more">Load More Videos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <h2>Our Instructors</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="asset/img/article-is-your-shooting-stance-2021-1.jpg" alt="Rajesh Rathore">
+                    <h3>Rajesh Rathore</h3>
+                    <p>Head Firearms Instructor</p>
+                </div>
+                <div class="team-member">
+                    <img src="asset/img/gun.jpeg" alt="Linda Lee">
+                    <h3>Mahendra Patel</h3>
+                    <p>Safety Officer<br>Specialist in women’s & youth classes</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzXw3UdrXdX0ArkKTM_ujPf4Q74YwCsnQHBg&s"
+                        alt="Mark Hughes">
+                    <h3>Mohit Kumar</h3>
+                    <p>Range Safety Manager<br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <p>"Best shooting range in Bihar. The instructors made me feel safe and confident!"</p>
+                    <span>- Ravi Kumar</span>
+                </div>
+                <div class="testimonial">
+                    <p>"Wide variety of practice guns and excellent safety standards. Highly recommended!"</p>
+                    <span>- Pankaj Sharma</span>
+                </div>
+                <div class="testimonial">
+                    <p>"We hosted our School event here—everyone loved it. Very professional staff."</p>
+                    <span>- Rakesh Yadav</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Map Section (Above the Footer) -->
+    <section class="map-section" style="padding: 0;">
+        <div class="container" style="padding:0;">
+            <h2 style="text-align:center; margin:24px 0 12px;">Find Us</h2>
+            <div style="width:100%; border-radius:12px; overflow:hidden; min-height:300px;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3603.6182119859236!2d84.85913367538902!3d25.417587377569614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDI1JzAzLjMiTiA4NMKwNTEnNDIuMiJF!5e0!3m2!1sen!2sin!4v1753276064224!5m2!1sen!2sin"
+                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="_subject" value="375b7c05-1896-4a09-bff0-4b60f3330255">
+                <input type="text" placeholder="Your Name" name="name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+            <div class="contact-info" style="text-align:center; margin-top:24px;">
+                <p><b>Location:</b> At & Po- Akhtiyarpur, PS - Bikram, Patna - 801104, Bihar</p>
+                <p><b>Phone:</b> +91 74150 00001</p>
+                <p><b>Email:</b> info@sssa.org</p>
+                <p>A unit of JAGVANDAN SEWA SANSTHAN</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 SSSAcademy Shooting Range. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- WhatsApp -->
+    <div class="float-start custom-left">
+        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+        <!-- <div class="elfsight-app-a36dabea-d170-45a7-8003-e1f5dc3973fe" data-elfsight-app-lazy></div> -->
+        <a href="https://wa.link/40bdse" target="_blank" style="position:fixed; left:24px; bottom:24px; z-index:1000;">
+            <img src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" alt="WhatsApp"
+                style="width:60px;height:60px;">
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hamburger = document.createElement('div');
+            hamburger.className = 'hamburger';
+            hamburger.innerHTML = '<span></span><span></span><span></span>';
+            document.querySelector('.nav-container').appendChild(hamburger);
+
+            const navLinks = document.querySelector('.nav-links');
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
+
+</html>
